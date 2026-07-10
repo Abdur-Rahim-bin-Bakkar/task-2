@@ -129,7 +129,7 @@ export default function Hero() {
         >
           <div className="relative rounded-2xl border border-white/[0.08] bg-gradient-to-br from-white/[0.02] to-transparent p-1 shadow-[0_0_80px_rgba(34,211,238,0.06)] backdrop-blur-md">
             <div className="overflow-hidden rounded-[calc(1rem-2px)] bg-[#07070c]/90">
-              
+
               {/* Top card metadata strip */}
               <div className="flex items-center justify-between border-b border-white/[0.06] px-4 py-3 text-[10px] font-medium tracking-wide uppercase text-slate-400 sm:px-6 sm:text-xs">
                 <div className="flex items-center gap-2">
