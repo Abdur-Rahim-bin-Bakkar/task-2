@@ -65,7 +65,7 @@ export default function HeroScene() {
 
   return (
     <div
-      className="relative h-[320px] w-full sm:h-[400px] lg:h-[520px]"
+      className="relative h-[300px] w-full sm:h-[380px] lg:h-[450px]"
       role="img"
       aria-label="AI data pipeline visualization showing raw data flowing through connected intelligence to structured insight"
     >

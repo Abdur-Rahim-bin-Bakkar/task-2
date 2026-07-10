@@ -11,14 +11,41 @@ export const NAV_LINKS = [
 ];
 
 export const HERO = {
-  badge: "Next-Gen AI Platform",
-  headline: "Transform Raw Data Into Structured Intelligence",
-  headlineAccent: "Structured Intelligence",
+  badge: "Live Demo: Real-time decision routing active",
+  headline: "Turn Raw Data into Intelligent Decisions",
+  headlineAccent: "Intelligent Decisions",
   description:
-    "Harness the power of connected AI to turn fragmented data streams into actionable insights. Real-time processing, intelligent orchestration, and crystal-clear outcomes.",
-  primaryCta: { label: "Get Started Free", href: "#get-started" },
-  secondaryCta: { label: "Watch Demo", href: "#demo" },
+    "Transform multi-source stream data into concrete, logic-driven actions. Deploy and monitor stateful agents that execute critical operations in sub-milliseconds.",
+  primaryCta: { label: "Run Free Trial", href: "#get-started" },
+  secondaryCta: { label: "View Demo", href: "#demo" },
 };
+
+export const HERO_STATS = [
+  {
+    value: "34.5TB/s",
+    label: "Throughput",
+    metricValue: "99.98%",
+    metricLabel: "Accuracy",
+  },
+  {
+    value: "125",
+    label: "Active Agents",
+    metricValue: "650k",
+    metricLabel: "ops/sec",
+  },
+  {
+    value: "148,321",
+    label: "Nodes",
+    metricValue: "214",
+    metricLabel: "Clusters",
+  },
+  {
+    value: "11.2ms",
+    label: "Latency",
+    metricValue: "99.87%",
+    metricLabel: "Availability",
+  },
+];
 
 export const PIPELINE_STAGES = [
   { id: "raw", label: "Raw Data", y: 2.2, color: "#64748b" },
